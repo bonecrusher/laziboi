@@ -1,0 +1,26 @@
+{
+  "name": "laziboi",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/laziboi.umd.cjs",
+  "module": "./dist/laziboi.js",
+  "exports": {
+    ".": {
+      "import": "./dist/laziboi.js",
+      "require": "./dist/laziboi.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "vite": "^3.2.0"
+  }
+}
