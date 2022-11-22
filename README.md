@@ -49,17 +49,19 @@ document.querySelector("ul#example-2")
 
 ## Methods
 
-`disable()`: Pauses the effect for a single element.
+[//]: # (`disable&#40;&#41;`: Pauses the effect for a single element.)
+
+`add()`: adds a new LazyBoi item.
 
 `disableAll()`: Pauses the effect for all elements.
 
-`enable()`: Resumes the effect for a single element.
+[//]: # (`enable&#40;&#41;`: Resumes the effect for a single element.)
 
 `enableAll()`: Resumes the effect for all elements.
 
 `getAll()`: Returns all LaziBoi elements.
 
-`remove()`: Removes a single element from the LaziBoi effect.
+[//]: # (`remove&#40;&#41;`: Removes a single element from the LaziBoi effect.)
 
 [//]: # "## Examples"
 [//]: # "[Click here to view](./index.html)"
