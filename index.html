@@ -9,44 +9,46 @@
   <body>
     <div id="container">
       <h2>Examples</h2>
-<pre class="code-example">
+      <pre class="code-example">
 <code>
-  document.querySelector('ul#example-1')
-    .querySelectorAll("li").forEach((el, i) => {
-      new LaziBoi(el, { multiplier: i * 3, min: -20, max: 200 });
-    });
+  document.querySelector("ul#example-1")
+      .querySelectorAll("li")
+      .forEach((el, i) => {
+        LaziBoi.add(el, { multiplier: i * 3, min: -20, max: 200 });
+      });
 </code>
 </pre>
       <ul class="example" id="example-1">
-        <li><img src="https://picsum.photos/400/400?random=1" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=2" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=3" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=4" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=5" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=6" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=7" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=8" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=9" alt=""></li>
+        <li><img src="https://picsum.photos/400/400?random=1" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=2" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=3" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=4" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=5" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=6" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=7" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=8" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=9" alt="" /></li>
       </ul>
 
-<pre class="code-example">
+      <pre class="code-example">
 <code>
-  document.querySelector('ul#example-2')
-    .querySelectorAll("li").forEach((el, i) => {
-      new LaziBoi(el, { multiplier: (Math.random() * 4) + i, min: 0, max: 100 });
-    });
+  document.querySelector("ul#example-2")
+      .querySelectorAll("li")
+      .forEach((el, i) => {
+        LaziBoi.add(el, { multiplier: Math.random() * 6 + i, min: -20, max: 100 });
+      });
 </code>
 </pre>
       <ul class="example" id="example-2">
-        <li><img src="https://picsum.photos/400/400?random=10" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=11" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=12" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=13" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=14" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=15" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=16" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=17" alt=""></li>
-        <li><img src="https://picsum.photos/400/400?random=18" alt=""></li>
+        <li><img src="https://picsum.photos/400/400?random=10" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=11" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=12" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=13" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=14" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=15" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=16" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=17" alt="" /></li>
+        <li><img src="https://picsum.photos/400/400?random=18" alt="" /></li>
       </ul>
     </div>
 

@@ -114,7 +114,7 @@ ul {
 }
 li {
   padding: 10px;
-  width: calc(33.333% - 20px)
+  width: calc(33.333% - 20px);
 }
 img {
   display: block;
