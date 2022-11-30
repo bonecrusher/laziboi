@@ -9,7 +9,7 @@ Applies a lazy effect to HTML elements based on the speed of the window scroll e
 ## Basic Usage
 
 ```
-import LazyBoi from 'laziboi'
+import LaziBoi from 'laziboi'
 
 LaziBoi.add(document.querySelector('#element'), { multiplier: 2, min: -100, max: 100 });
 

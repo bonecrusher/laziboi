@@ -13,3 +13,9 @@ document.querySelector("ul#example-2")
   .forEach((el, i) => {
     LaziBoi.add(el, { multiplier: Math.random() * 6 + i, min: -20, max: 100 });
   });
+
+document.querySelector("ul#example-3")
+  .querySelectorAll("li")
+  .forEach((el, i) => {
+    LaziBoi.add(el, { multiplier: i * 3, min: -20, max: 200 });
+  });

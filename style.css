@@ -112,6 +112,9 @@ ul {
   flex-wrap: wrap;
   list-style: none;
 }
+ul.text {
+  display: block;
+}
 li {
   padding: 10px;
   width: calc(33.333% - 20px);
