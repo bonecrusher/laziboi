@@ -1,6 +1,6 @@
 function V(e, n) {
   e || console.warn("LaziBoi: element is required and can't be found");
-  let c = window.scrollY, o = 0, f = i(n.multiplier, 1, "multiplier"), d = i(n.min, -100, "minVelocity"), u = i(n.max, 100, "maxVelocity"), l = i(n.dampening, 0.25, "dampening"), t = i(
+  let c = window.scrollY, o = 0, f = i(n.multiplier, 1, "multiplier"), d = i(n.min, -100, "minVelocity"), u = i(n.max, 100, "maxVelocity"), l = i(n.dampening, 0.4, "dampening"), t = i(
     n.restrictToViewport,
     !0,
     "restrictToViewport"
@@ -18,7 +18,7 @@ function V(e, n) {
       p = r[0].isIntersecting;
     },
     {
-      rootMargin: `${e.offsetHeight}px`,
+      rootMargin: `${window.innerHeight * 2}px`,
       threshold: 0
     }
   ).observe(e) : p = !0, e.style.transition = `transform ${l}s ease-out`, e.style.willChange = "transform", y(), m && window.matchMedia("(prefers-reduced-motion: reduce)").matches && h();
