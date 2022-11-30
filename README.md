@@ -39,7 +39,7 @@ document.querySelector("ul#example-2")
 
 `max`: The maximum value for the effect. Default is `100`.
 
-`dampening`: Timing for the effect to finish/settle in seconds. Default is `0.25`.
+`dampening`: Timing for the effect to finish/settle in seconds. Default is `0.4`.
 
 `restrictToViewport`: Restricts effect to only affect elements within the viewport, may help if there are performance issues, set to `false` if it makes the effect awkward for your use case. Default is `true`.
 
